@@ -16,3 +16,5 @@ jobs:
         shell: pwsh
       - run: Write-Host "This step runs in PowerShell"
         shell: powershell
+      - run: echo "This step runs in CMD on Windows explicitly"
+        shell: cmd
